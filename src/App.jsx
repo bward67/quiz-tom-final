@@ -20,7 +20,7 @@ export default function App() {
       } else {
         setShowFinalResults(true);
       }
-    } else setWrongMessage("that's not correct, Tom - try again");
+    } else setWrongMessage("That is not correct, Tom - try again");
   }
   useEffect(() => {
     if (score === 10) {
